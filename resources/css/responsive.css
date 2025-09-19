@@ -1,0 +1,432 @@
+@media screen and (max-width:1800px) {
+/* start product invoice page */
+   .suppliers-location-table .product-name {
+             width: 220px;
+  }
+/* end product invoice page */
+}
+@media screen and (max-width:1600px) {
+
+/* start product invoice page */
+.suppliers-location-table .product-name {
+           width: 220px;
+}
+.suppliers-location-table table {
+    width: 1025px;
+}
+.header-search.suplier-location {
+   max-width: 430px;
+}
+
+/* end product invoice page */
+}
+
+@media screen and (max-width:1399px) {
+
+/* start signup form */
+.sign-up::before {
+   width: 320px;
+   height: 314px;
+}
+
+/* end signup form */
+/* start header */
+.header-search {
+   max-width: 312px;
+}
+/* end header */
+.shipment-transit-table table {
+   width: 1200px;
+}
+/* start product invoice page */
+.summery-box.summery-box-4 .add-invoice-inner h3 {
+   font-size: 14px;
+}
+.suppliers-location-table table {
+   width: 1025px;
+}
+.suppliers-location-table .prod-table-outer {
+   width: 400px;
+
+}
+.header-search.suplier-location {
+   max-width: 430px;
+}
+.invoice-product-append label {
+   min-width: 110px;
+}
+/* end product invoice page */
+/* start product-list */
+.product-list-table table {
+   width: 1160px;
+}
+.port_table table {
+   width: 100%;
+}
+.prod-and-depo {
+   max-width: 100%;
+}
+/* end product-list */
+}
+
+@media screen and (max-width:1199px) {
+   /* start header css */
+   .header-right h1 {
+      font-size: 22px;
+  }
+  .header-search {
+   max-width: 242px;
+}
+ /* end header css */
+   /* start dashboard page css */
+   .shipment-transit-table table {
+      width: 1110px;
+   }
+
+   /* end dashboard page css */
+   .invoice-product-form label, .invoice-form label {
+      font-size: 14px;
+  }
+  .invoice-product-form .form-control, .invoice-product-form  .form-select {
+   font-size: 14px;
+}
+ label{
+   font-size: 14px;
+}
+.invoice-product-append span {
+   font-size: 14px;
+}
+/* start add invoice page */
+.add-invoice-right .add-invo-btn .common_btn {
+   font-size: 20px;
+   padding: 12px 18px;
+}
+.invoice-product-append label {
+   min-width: 95px;
+}
+/* end add invoice page */
+
+}
+
+@media screen and (max-width:991px) {
+
+/* start header css */
+   .header-right h1 {
+      font-size: 22px;
+  }
+body.app.sidebar-mini .app-sidebar {
+   left: -0px;
+   width: 56px;
+   padding: 0px 8px;
+}
+  body.app.sidebar-mini .app-sidebar.left-sidbebar a.app-menu__item {
+   font-size: 0;
+   justify-content: center;
+   padding: 8px 4px;
+}
+body.app.sidebar-mini.sidenav-toggled .app-sidebar.left-sidbebar a.app-menu__item {
+   padding: 8px 10px;
+   font-size: 16px;
+   justify-content: start;
+   gap: 8px;
+}
+.app-sidebar a.dropdown-item{
+   padding: 6px 4px;
+   font-size: 0px;
+   width: 28px;
+}
+body.app.sidebar-mini.sidenav-toggled .app-sidebar.left-sidbebar  a.dropdown-item {
+   padding: 6px 4px;
+   font-size: 14px;
+   width: 100%;
+}
+body.app.sidebar-mini.sidenav-toggled .app-sidebar.left-sidbebar a.dropdown-item svg {
+   margin-right: 5px;
+}
+body.app.sidebar-mini.sidenav-toggled  .app-sidebar {
+   left: 0px;
+   width: 287px;
+}
+.app-content {
+   margin-left: 0px;
+   padding-left: 70px;
+   padding-top: 0;
+}
+
+.app .app-sidebar {
+   padding-top: 8px;
+}
+/* end header css */
+/* start dashboard page css */
+.app-content {
+   padding-top: 0px !important;
+   margin-top: 18px;
+}
+.product-reach-right h2 {
+   margin-bottom: 10px;
+}
+.arrival-info form label {
+   font-size: 13px;
+}
+#shipment-more h2 {
+   font-size: 22px;
+}
+.arrival-info.porduct-reach span.other-icon {
+   transform: translate(-50%, -50%);
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+}
+.shipment-transit-table {
+   height: calc(100vh - 268px );
+}
+/* end dashboard page css */
+/* start product invoice page */
+.header-search.suplier-location {
+   max-width: 350px;
+}
+.shipment-more h2 {
+   font-size: 22px;
+}
+/* end product invoice page */
+
+/* start add invoice page */
+
+.invoice-product-form input[type="number"] {
+   max-width: 52px;
+   min-width: 52px;
+   font-size: 14px;
+}
+.add-invoice-right .add-invo-btn .common_btn {
+   font-size: 20px;
+   padding: 10px 12px;
+}
+.add-invoice-right .add-invo-arrow {
+   font-size: 20px;
+   top: 0;
+}
+/* end add invoice page */
+.product-category-form {
+   margin-top: 0 !important;
+}
+
+
+/* start Edit Invoice page css*/
+.invoice-form h2 {
+   font-size: 18px;
+}
+.agent-update-btn .common_btn {
+   padding: 6px 20px;
+   font-size: 14px;
+   line-height: 24px;
+}
+/* end Edit Invoice page css*/
+.add-invo-search {
+    margin-bottom: 12px;
+}
+
+}
+
+@media screen and (max-width:767px) {
+   body{
+      overflow: auto;
+   }
+body.app.sidebar-mini.sidenav-toggled  .app-sidebar {
+   width: 270px;
+}
+
+/* start signup form */
+.sign-up .sign-up-inner {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   height: initial;
+}
+
+.sign-up .signup-form {
+   max-width: 100%;
+}
+
+.signup-logo {
+   text-align: center;
+}
+
+.signup-logo img {
+   height: 300px;
+   object-fit: contain;
+}
+
+.sign-up::before {
+   display: none;
+}
+
+.sign-up {
+   overflow: auto;
+}
+/* end signup form */
+/* start dashboard */
+.summery-box.summery-box-4 .add-invoice-inner h3 {
+   font-size: 13px;
+   font-weight: 500;
+   line-height: 18px;
+}
+.shipment-transit-table {
+   height: auto;
+}
+/* end dashboard */
+/* start product invoice page */
+.header-search.suplier-location {
+   max-width: 100%;
+}
+.invoice-product-btn .common_btn {
+   padding: 8px 18px;
+   background-color: #01579B;
+   font-size: 14px;
+}
+.new-invoice .invoice-btn .common_btn {
+   padding: 10px 10px;
+   font-size: 14px;
+   white-space: nowrap;
+}
+.suppliers-location-table {
+   height: auto;
+}
+
+/* end product invoice page */
+.add-invoice-left {
+   overflow: initial;
+   height: auto;
+}
+/* start add invoice page */
+
+/* end add invoice page */
+
+/* start inventory category */
+.prod-category-box img {
+   min-width: 110px;
+   height: 122px;
+}
+.prod-category-btn .common_btn {
+   padding: 12px 10px;
+   font-size: 12px;
+}
+.prod-category-heading h2 {
+   font-size: 18px;
+}
+.prod-category-list-outer {
+   height: inherit;
+   overflow: initial;
+}
+.prod-category-btn .common_btn {
+   font-size: 14px;
+   padding: 6px 5px;
+   width: 100%;
+   display: inline-block;
+   text-align: center;
+}
+.prod-category-box .prod-category-img .overlay-btn a, .prod-category-box .prod-category-img .overlay-btn button {
+   min-width: 28px;
+   height: 28px;
+   font-size: 15px;
+   line-height: 27px;
+}
+.prod-category-box .prod-category-img .overlay-btn {
+   column-gap: 5px;
+}
+
+/* end inventory category */
+   
+/* start add category */
+.varient-btn .common_btn {
+   padding: 7px 10px;
+   font-size: 14px;
+}
+.product-category-form .in-prod-name {
+   width: 100%;
+}
+.varient-btn button {
+   min-width: 138px;
+}
+.product-category-form {
+   padding-left: 8px;
+}
+.inventory-category .product-category-form .variant-outer {
+   margin-right: 0;
+}
+/* end add category */
+
+/* start product list */
+.prod-and-depo .checkout-btn {
+   margin-top: 10px !important;
+}
+.product-list-table {
+   height: auto;
+}
+.checkout-btn .common_btn {
+   padding: 6px 16px;
+}
+/* end product list */
+/* start confirm order */
+.confirm-order .varient-btn .common_btn {
+   padding: 7px 6px;
+   font-size: 12px;
+}
+/* end confirm order */
+/* start agent page css*/
+.agent-details  .common_btn {
+   border-radius: 10px;
+   padding: 8px 14px;
+   font-size: 14px;
+   line-height: 20px;
+}
+.agent-details .common_btn.agent-filter {
+   padding: 6px 14px;
+   font-size: 14px;
+   line-height: 20px;
+}
+/* end agent page css*/
+/* start Edit Invoice page css*/
+.edit-invoice-details {
+  overflow: initial;
+  height: auto;
+}
+/* end Edit Invoice page css*/
+.invoice-form .row {
+    margin-top: 6px;
+}
+.catergory-heading .col-md-6:first-child{
+   order: 2;
+}
+.catergory-heading .col-md-6:last-child{
+   order: 1;
+}
+.catergory-heading h2 {
+    margin-top: 18px;
+}
+.category-btn.text-end {
+    text-align: left !important;
+    margin-left: 0;
+}
+.category-btn.text-end a {
+    margin-left: 0 !important;
+}
+.port_table table {
+    width: 600px;
+}
+}
+
+@media screen and (max-width:550px) {
+   
+/* start inventory category */
+.prod-category-list .prod-category-box {
+   flex: 0 0 47%;
+}
+.prod-category-btn .common_btn {
+   font-size: 14px;
+   width: 100%;
+   display: inline-block;
+   text-align: center;
+   padding: 6px 5px;
+}
+/* end inventory category */
+
+}
