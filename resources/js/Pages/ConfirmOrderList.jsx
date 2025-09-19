@@ -100,13 +100,13 @@ const handleDelete = (id) => {
 }}>
 
   <div className="varient-btn d-flex justify-content-end gap-2 mt-3 mt-lg-3">
-    <button
+    {/*<button
       type="button"
       className="border-0 common_btn more-varient"
       onClick={() => history.back()}
     >
       Add More Product
-    </button>
+    </button> */}
     <button type="submit" className="border-0 common_btn done-btn">
       Confirm
     </button>

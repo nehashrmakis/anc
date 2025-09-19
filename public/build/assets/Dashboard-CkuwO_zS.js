@@ -1,0 +1,1 @@
+import{j as r,$ as o}from"./app-DKcAQ6_-.js";import t from"./Header-BRF3mAJO.js";import a from"./Sidebar-BKfS1058.js";import s from"./DashboardMain-BN8lT4rY.js";import"./Dropdown-CQjxdwPE.js";import"./transition-D9AalLht.js";function j(){return r.jsxs(r.Fragment,{children:[r.jsx(o,{title:"Dashboard"}),r.jsx(t,{}),r.jsx(a,{}),r.jsx(s,{})]})}export{j as default};

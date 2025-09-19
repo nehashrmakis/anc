@@ -256,9 +256,9 @@ const handleSendToMainPort = (finalInventoryId) => {
                       </td>
                       <td>
   <div className="action-btn d-flex gap-2">
-    <button onClick={() => handleDelete(item.final_inventory_id)} className="border-0">
+     {/* <button onClick={() => handleDelete(item.final_inventory_id)} className="border-0">
       <i className="fa-solid fa-trash"></i>
-    </button>
+    </button> */}
 
     {item.arrival_depo === mainPort?.name ? (
   <span className="badge-main-port">In Main Port</span>

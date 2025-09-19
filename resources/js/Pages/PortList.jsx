@@ -333,16 +333,20 @@ const handleSetMainPort = async (id) => {
                       </button>
 
                       {port.is_main ? (
-                        <span className="badge bg-success main-btn">Main Port</span>
-                      ) : (
-                        <button
-                          type="button"
-                          className="btn set-main"
-                          onClick={() => handleSetMainPort(port.id)}
-                        >
-                          Set as Main
-                        </button>
-                      )}
+  <span className="badge bg-success main-btn">Main Port</span>
+) : (
+  // Only allow "Set as Main" if no main port exists yet
+  !depos.some(p => p.is_main) && (
+    <button
+      type="button"
+      className="btn set-main"
+      onClick={() => handleSetMainPort(port.id)}
+    >
+      Set as Main
+    </button>
+  )
+)}
+
                       </div>
                     </td>
 
