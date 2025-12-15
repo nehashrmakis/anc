@@ -139,13 +139,13 @@ export default function AgentInvoiceList({ agent, invoices: initialInvoices }) {
           <table className="mb-3">
             <thead>
               <tr>
-                <th>PO</th>
+                <th>Supplier Invoice</th>
                 <th>CONTAINER</th>
                 <th>Supplier Name</th>
                 <th>DEPO</th>
                 <th>ETD</th>
                 <th>ETA</th>
-                <th className="vat-inv">VAT INV NO</th>
+                {/* <th className="vat-inv">VAT INV NO</th> */}
                 <th className="misc-remarks">
                   <table className="table-prod prod-list">
                     <tbody>
@@ -180,14 +180,14 @@ export default function AgentInvoiceList({ agent, invoices: initialInvoices }) {
                     <td>{inv.arrival_depo}</td>
                     <td>{inv.etd || 'N/A'}</td>
                     <td>{inv.landing_date || 'N/A'}</td>
-                    <td className="vat-inv-data">
+                    {/* <td className="vat-inv-data">
                       <input
                         type="text"
                         value={inv.vat_invoice || ''}
                         className="form-control"
                         disabled
                       />
-                    </td>
+                    </td> */}
                     <td className="prod-table-outer px-0 msc-in-detail">
                       <table className="table-prod prod-list">
                         <tbody>
@@ -212,6 +212,24 @@ export default function AgentInvoiceList({ agent, invoices: initialInvoices }) {
                                     handleChange(inv.id, index, 'remark', e.target.value)
                                   }
                                 />
+                              </td>
+                              <td className="remarks py-0">
+                                {inv.misc_invoices.length > 1 && (
+                                  <button
+                                    type="button"
+                                    className="btn btn-sm btn-danger"
+                                    onClick={() => {
+                                      const updated = inv.misc_invoices.filter((_, i) => i !== index);
+                                      setInvoices((prev) =>
+                                        prev.map((invoice) =>
+                                          invoice.id === inv.id ? { ...invoice, misc_invoices: updated } : invoice
+                                        )
+                                      );
+                                    }}
+                                  >
+                                    Remove
+                                  </button>
+                                )}
                               </td>
                             </tr>
                           ))}

@@ -97,7 +97,7 @@ const [eta, setEta] = useState(invoice.landing_date ? invoice.landing_date.slice
                 <div className="col-md-6 col-6">
                   <div className="row align-items-center">
                     <div className="col-md-12 col-lg-5 col-xl-3">
-                      <label className="form-label mb-0">PO.</label>
+                      <label className="form-label mb-0">Supplier Invoice</label>
                     </div>
                     <div className="col-md-12 col-lg-7 col-xl-9">
                       <div className="input-group rounded-5">
@@ -107,7 +107,7 @@ const [eta, setEta] = useState(invoice.landing_date ? invoice.landing_date.slice
                   </div>
                 </div>
 
-                <div className="col-md-6 col-6">
+                {/* <div className="col-md-6 col-6">
                   <div className="row align-items-center mb-2 mb-md-0 mb-lg-2">
                     <div className="col-md-12 col-lg-5 col-xl-3">
                       <label className="form-label mb-0">Vat Invoice No</label>
@@ -123,21 +123,21 @@ const [eta, setEta] = useState(invoice.landing_date ? invoice.landing_date.slice
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div className="col-md-6 col-6">
-                <div className="row align-items-center mb-2 mb-md-0 mb-lg-2">
-                  <div className="col-md-12 col-lg-5 col-xl-3">
-                    <label className="form-label mb-0">Clearance Inv No</label>
-                  </div>
-                  <div className="col-md-12 col-lg-7 col-xl-9">
-                    <div className="input-group rounded-5">
-                      <input
-                        type="text"
-                        className="form-control"
-                        value={data.clearance_invoice_no}
-                        onChange={(e) => setData('clearance_invoice_no', e.target.value)}
-                      />
+                </div> */}
+                <div className="col-md-6 col-6">
+                  <div className="row align-items-center mb-2 mb-md-0 mb-lg-2">
+                    <div className="col-md-12 col-lg-5 col-xl-3">
+                      <label className="form-label mb-0">Clearance Inv No</label>
+                    </div>
+                    <div className="col-md-12 col-lg-7 col-xl-9">
+                      <div className="input-group rounded-5">
+                        <input
+                          type="text"
+                          className="form-control"
+                          value={data.clearance_invoice_no}
+                          onChange={(e) => setData('clearance_invoice_no', e.target.value)}
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
